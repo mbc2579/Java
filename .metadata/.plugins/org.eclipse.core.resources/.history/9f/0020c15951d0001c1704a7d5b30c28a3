@@ -1,0 +1,46 @@
+package ch03;
+
+public class RealtionalTest {
+
+	public static void main(String[] args) {
+		
+		// 관계 연산자 예제
+		
+		int num1 = 5;
+		int num2 = 3;
+		
+		boolean value = (num1 > num2);
+		System.out.println(value);
+		
+		System.out.println(num1 < num2);
+		System.out.println(num1 >= num2);
+		System.out.println(num1 <= num2);
+		System.out.println(num1 == num2);
+		System.out.println(num1 != num2);
+		
+		System.out.println("-------------------------------");
+
+		
+		// 논리 연산자 예제
+		// &&(논리 곱) 두 항이 모두 참이면 참 ||(논리 합) 두 항 중 하나의 항이 참이면 참
+		
+		int num3 = 10;
+		int num4 = 20;
+		
+		boolean flag = (num3 > 0) && (num4 > 0);
+		System.out.println(flag);
+		
+		flag = (num3 < 0) && (num4 > 0);
+		System.out.println(flag);
+		
+		flag = (num3 > 0) || (num4 > 0);
+		System.out.println(flag);
+		
+		flag = (num3 < 0) || (num4 > 0);
+		System.out.println(flag);
+		
+		flag = !(num3 > 0);
+		System.out.println(flag);
+	}
+
+}
