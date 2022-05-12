@@ -1,0 +1,13 @@
+package ch11;
+
+public class NestedLoopTest {
+
+	public static void main(String[] args) {
+		
+		int cocunt = 1;
+		
+		for(int dan = 2; )
+
+	}
+
+}
