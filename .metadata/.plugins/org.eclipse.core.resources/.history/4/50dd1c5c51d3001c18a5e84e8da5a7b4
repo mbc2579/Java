@@ -1,0 +1,14 @@
+package ch3;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		
+		// Student class 메소드 실행 클래스 예제
+
+		Student studentLee = new Student();
+		
+		studentLee.studentID = 12345;
+	}
+
+}
