@@ -1,0 +1,10 @@
+package ch06;
+
+public class BirthDay {
+
+	int day;
+	int month;
+	int year;
+	
+	
+}
