@@ -1,0 +1,18 @@
+package ch09;
+
+public class TakeTransTest {
+
+	public static void main(String[] args) {
+		
+		// °´Ã¼ Çù·Â ¿¹Á¦(¹ö½º ÁöÇÏÃ¶ Å¾½Â ¿¹Á¦)
+
+		Student studentJ = new Student("James", 5000);
+		Student studentT = new Student("Tomas", 10000);
+		
+		Bus bus100 = new Bus(100);
+		
+		
+		studentJ.takeBus(bus100);
+	}
+
+}

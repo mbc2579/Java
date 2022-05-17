@@ -1,0 +1,10 @@
+package ch09;
+
+public class Bus {
+
+	int busNumber;
+	int passengerCount;
+	int money;
+	
+	
+}

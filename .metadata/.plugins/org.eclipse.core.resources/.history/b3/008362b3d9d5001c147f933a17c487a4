@@ -1,0 +1,14 @@
+package ch10;
+
+public class Company {
+	
+	// 싱글톤 패턴으로 회사 객체 구현하기
+	
+	private static Company instance = new Company();
+	
+	private Company() {
+		
+	}
+	
+	
+}
