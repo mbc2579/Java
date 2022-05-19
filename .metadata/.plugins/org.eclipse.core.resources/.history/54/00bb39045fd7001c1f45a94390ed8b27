@@ -1,0 +1,11 @@
+package ch11;
+
+public class CharArrayTest {
+
+	public static void main(String[] args) {
+		
+		// 문자 배열을 만들어 A-Z까지 배열에 저장하고 이를 다시 출력하는 예제
+
+	}
+
+}

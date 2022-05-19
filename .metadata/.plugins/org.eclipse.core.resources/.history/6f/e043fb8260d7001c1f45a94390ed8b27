@@ -1,0 +1,15 @@
+package ch12;
+
+public class BookTest {
+
+	public static void main(String[] args) {
+		
+		// 객체 배열 사용 예제
+		
+		Book[] library = new Book[5];
+		
+		
+
+	}
+
+}
