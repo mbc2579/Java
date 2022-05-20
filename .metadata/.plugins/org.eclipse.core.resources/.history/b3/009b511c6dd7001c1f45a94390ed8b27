@@ -1,0 +1,16 @@
+package ch15;
+
+public class StudentSubjectTest {
+
+	public static void main(String[] args) {
+		
+		// 배열을 이용한 성적 산출 프로그램 예제
+		
+		Student studentLee = new Student(1001, "Lee");
+		
+		studentLee.addSubject("국어", 100);
+		studentLee.addSubject("수학", 90);
+
+	}
+
+}
