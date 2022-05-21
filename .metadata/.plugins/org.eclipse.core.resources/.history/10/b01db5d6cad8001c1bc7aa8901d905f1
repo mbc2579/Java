@@ -1,0 +1,17 @@
+package ch01;
+
+public class Customer {
+
+	// 상속을 활용한 멤버십 클래스 구현하기
+	// 일반고객 클래스
+	
+	private int customerID;
+	private String customerName;
+	private String customerGrade;
+	int bonusPoint;
+	double bonusRatio;
+	
+	public Customer() {
+		
+	}
+}

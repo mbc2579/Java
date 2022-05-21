@@ -1,0 +1,15 @@
+package ch01;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		
+		// 상속을 활용한 멤버십 클래스 구현하기
+		// test클래스
+		
+		Customer customerLee = new Customer();
+		customerLee.
+
+	}
+
+}

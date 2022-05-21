@@ -1,0 +1,18 @@
+package ch01;
+
+public class VIPCustomer {
+	
+	// 상속을 활용한 멤버십 클래스 구현하기
+	// 우수고객 클래스
+
+	private int customerID;
+	private String customerName;
+	private String customerGrade;
+	int bonusPoint;
+	double bonusRatio;
+	
+	public VIPCustomer() {
+		bonusRatio = 0.05;
+		customerGrade = "VIP";
+	}
+}
